@@ -11,9 +11,13 @@ Utilization:
 3) Copy the file Alphox_bkp.php in libraries folder;
 4) Open Alphox_bkp.php and set your email parameter and preferences;
 5) you can also set up:
-	public $day_bkp = 5;   days of backup interval; 0 = at each call
-	public $n_db = 3;      max number of files backup to store
+
+	public $day_bkp = 5;   (days of backup interval; 0 = at each call)
+	
+	public $n_db = 3;      (max number of files backup to store)
 
 6) Open the home controller (look at the example file home.php) :
-				  insert the row $this->load->library('alphox_bkp'); in function __construct()	;
+
+				  insert the row $this->load->library('alphox_bkp'); in function __construct()	
+
 				  insert the row $this->alphox_bkp->backup(); in index() function.
