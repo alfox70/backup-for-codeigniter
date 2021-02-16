@@ -21,3 +21,8 @@ Utilization:
 				  insert the row $this->load->library('alphox_bkp'); in function __construct()	
 
 				  insert the row $this->alphox_bkp->backup(); in index() function.
+
+
+
+if it was useful and you want to offer me a coffee ...
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/alfonsoferlita?locale.x=it_IT)
